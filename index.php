@@ -6,7 +6,6 @@
  <form class="contact-form" action="contactForm.php" method="post">
  <input type="text" name="name" placeholder = "Name" />
  <input type="text" name="email" placeholder = "Email" />
- <input type="text" name="message" placeholder = "Message" />
  <textarea name="message" placeholder = "Message"></textarea>
  <p><input type="submit" /></p>
 </form>
