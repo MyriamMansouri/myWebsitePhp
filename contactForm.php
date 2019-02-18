@@ -25,7 +25,7 @@ $txt = str_replace("\n.", "\n..", $txt);
 /* Open the try/catch block. */
 try {
    /* Set the mail sender. */
-   $mail->setFrom('info@myriammansouri.com', $name);
+   $mail->setFrom($mailTo, $name);
 
    /* Add a recipient. */
    $mail->addAddress($mailTo);
