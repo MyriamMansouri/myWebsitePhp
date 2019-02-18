@@ -8,13 +8,6 @@ use PHPMailer\PHPMailer\Exception;
 /* Include the Composer generated autoload.php file. */
 require 'vendor/autoload.php';
 
-/* If you installed PHPMailer without Composer do this instead: */
-/*
-require 'C:\PHPMailer\src\Exception.php';
-require 'C:\PHPMailer\src\PHPMailer.php';
-require 'C:\PHPMailer\src\SMTP.php';
-*/
-
 /* Create a new PHPMailer object. Passing TRUE to the constructor enables exceptions. */
 $mail = new PHPMailer(TRUE);
 
@@ -22,7 +15,7 @@ $name = $_POST['name'];
 $mailFrom = $_POST['email'];
 $message = $_POST['message'];
 
-$mailTo = "info@myriammansouri.com";
+$mailTo = "myriam.mansouri@gmail.com";
 $subject = 'New email from myriammansouri.com';
 $headers = "From: ".$mailFrom;
 $txt = "You have received an email from ".$name.".\n\n".$message;
