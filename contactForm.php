@@ -21,8 +21,6 @@ $subject = 'New email from myriammansouri.com';
 $txt = "You have received an email from ".$name.".\n\n Email: ".$mailFrom.".\n\n".$message;
 $txt = str_replace("\n.", "\n..", $txt);
 
-echo $name;
-
 /* Open the try/catch block. */
 try {
    $mail->setFrom($mailTo);
