@@ -46,3 +46,10 @@ nav li:hover{
 nav li:hover{
     font-weight: bold;
  }
+
+ @media (max-width:750px) {
+    nav {
+        padding-right: 1vw;
+    }
+}
+

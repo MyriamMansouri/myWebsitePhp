@@ -33,13 +33,14 @@ try {
    $mail->SMTPAuth = TRUE;
    $mail->SMTPSecure = 'tls';
    $mail->Username = $mailTo;
-   $mail->Password = 'Psylorviram0+';
+   $mail->Password = '1234';
    $mail->Port = 587;
    
-   /* Enable SMTP debug output. */
-   $mail->SMTPDebug = 4;
+   /* Enable SMTP debug output.
+   $mail->SMTPDebug = 4;   
+   */
 
-   /* Finally send the mail. */
+    /* Finally send the mail. */
    $mail->send();
 }
 catch (Exception $e)
@@ -53,4 +54,11 @@ catch (\Exception $e)
    echo $e->getMessage();
 }
 
+?>
+
+<script type="text/javascript">
+    window.location = "http://www.myriammansouri.com/";
+</script>    
+<?php
 }
+?>

@@ -79,3 +79,21 @@ textarea {
 textarea{
     height: 40vh;
 }
+
+
+@media (max-width:750px) {
+    
+h1 {
+    font-size: 4rem;
+    font-display: right;
+}
+
+h2{
+    font-size:2.7rem;
+}
+    section {
+        padding:10vw 15vw 15vw 5vw;
+    }
+    
+    
+}
