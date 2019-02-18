@@ -1,3 +1,8 @@
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
 <?php 
 
 
@@ -25,16 +30,9 @@ echo $name;
 
 /* Open the try/catch block. */
 try {
-   /* Set the mail sender. */
    $mail->setFrom($mailTo);
-
-   /* Add a recipient. */
    $mail->addAddress($mailTo);
-
-   /* Set the subject. */
    $mail->Subject = $subject;
-
-   /* Set the mail message body. */
    $mail->Body = $txt;
 
    $mail->isSMTP();
@@ -63,3 +61,7 @@ catch (\Exception $e)
 }
 
 }
+
+?> 
+</body>
+</html>
