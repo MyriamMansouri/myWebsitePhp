@@ -6,7 +6,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 /* Include the Composer generated autoload.php file. */
-require '.\vendor\autoload.php';
+require dirname(__DIR__).'\vendor\autoload.php';
 
 /* If you installed PHPMailer without Composer do this instead: */
 /*
