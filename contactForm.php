@@ -40,7 +40,7 @@ try {
    $mail->Host = 'smtp.gmail.com';
    $mail->SMTPAuth = TRUE;
    $mail->SMTPSecure = 'tls';
-   $mail->Username = $mailFrom;
+   $mail->Username = $mailTo;
    $mail->Password = 'Psylorviram0+';
    $mail->Port = 587;
    
@@ -53,7 +53,7 @@ try {
 catch (Exception $e)
 {
    /* PHPMailer exception. */
-   echo $e->errorMessage('Error');
+   echo $e->errorMessage();
 }
 catch (\Exception $e)
 {
