@@ -41,7 +41,7 @@ try {
    $mail->SMTPAuth = TRUE;
    $mail->SMTPSecure = 'tls';
    $mail->Username = $mailFrom;
-   $mail->Password = 'Psylormyriam0+';
+   $mail->Password = 'Psylorviram0+';
    $mail->Port = 587;
    
    /* Enable SMTP debug output. */
