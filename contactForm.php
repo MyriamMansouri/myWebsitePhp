@@ -8,6 +8,7 @@ use PHPMailer\PHPMailer\Exception;
 /* Include the Composer generated autoload.php file. */
 require './vendor/autoload.php';
 
+if (isset($_POST['submit'])) {
 /* Create a new PHPMailer object. Passing TRUE to the constructor enables exceptions. */
 $mail = new PHPMailer(TRUE);
 
@@ -20,7 +21,7 @@ $subject = 'New email from myriammansouri.com';
 $txt = "You have received an email from ".$name.".\n\n Email: ".$mailFrom.".\n\n".$message;
 $txt = str_replace("\n.", "\n..", $txt);
 
-if (isset($_POST['submit'])) {
+
 /* Open the try/catch block. */
 try {
    /* Set the mail sender. */
@@ -52,7 +53,7 @@ try {
 catch (Exception $e)
 {
    /* PHPMailer exception. */
-   echo $e->errorMessage();
+   echo $e->errorMessage('Error');
 }
 catch (\Exception $e)
 {
