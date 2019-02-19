@@ -16,9 +16,9 @@ $name = $_POST['name'];
 $mailFrom = $_POST['email'];
 $message = $_POST['message'];
 
-$mailTo = "myriam.mansouri@gmail.com";
+$mailTo = "info@myriammansouri.com";
 $subject = 'Email confirmation - message sent to myriammansouri.com';
-$txt = "Hello,\nThis is a copy of your email for confirmation.\nI will get back to you as soon as possible.\nThank you,\nMyriam Mansouri.\n\n---------------\n\nMessage from: ".$name.".\n\n Email: ".$mailFrom.".\n\n".$message;
+$txt = "Hello,\n\nThis is a copy of your email for confirmation.\nI will get back to you as soon as possible.\n\nThank you,\n\nMyriam Mansouri.\n\n---------------\n\nMessage from: ".$name.".\n\nEmail: ".$mailFrom.".\n\n".$message;
 $txt = str_replace("\n.", "\n..", $txt);
 $emailid =  array($mailTo, $mailFrom);
 /* Open the try/catch block. */
