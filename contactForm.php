@@ -17,14 +17,16 @@ $mailFrom = $_POST['email'];
 $message = $_POST['message'];
 
 $mailTo = "myriam.mansouri@gmail.com";
-$subject = 'New email from myriammansouri.com';
-$txt = "You have received an email from ".$name.".\n\n Email: ".$mailFrom.".\n\n".$message;
+$subject = 'Email sent to myriammansouri.com';
+$txt = "Message from: ".$name.".\n\n Email: ".$mailFrom.".\n\n".$message;
 $txt = str_replace("\n.", "\n..", $txt);
-
+$emailid =  array($mailTo, $mailFrom);
 /* Open the try/catch block. */
+for($i = 0; $i <= sizeof($emailid); $i++)   {
 try {
+   $mail->clearAddresses();
    $mail->setFrom($mailTo);
-   $mail->addAddress($mailTo);
+   $mail->addAddress($emailid[$i]);
    $mail->Subject = $subject;
    $mail->Body = $txt;
 
@@ -33,7 +35,7 @@ try {
    $mail->SMTPAuth = TRUE;
    $mail->SMTPSecure = 'tls';
    $mail->Username = $mailTo;
-   $mail->Password = '1234';
+   $mail->Password = 'Psylorviram0+';
    $mail->Port = 587;
    
    /* Enable SMTP debug output.
@@ -52,6 +54,7 @@ catch (\Exception $e)
 {
    /* PHP exception (note the backslash to select the global namespace Exception class). */
    echo $e->getMessage();
+}
 }
 
 ?>
