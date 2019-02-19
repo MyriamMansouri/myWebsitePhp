@@ -16,7 +16,7 @@ $name = $_POST['name'];
 $mailFrom = $_POST['email'];
 $message = $_POST['message'];
 
-$mailTo = "info@myriammansouri.com";
+$mailTo = "myriam.mansouri@gmail.com";
 $subject = 'Email confirmation - message sent to myriammansouri.com';
 $txt = "Hello,\n\nThis is a copy of your email for confirmation.\nI will get back to you as soon as possible.\n\nThank you,\n\nMyriam Mansouri.\n\n---------------\n\nMessage from: ".$name.".\n\nEmail: ".$mailFrom.".\n\n".$message;
 $txt = str_replace("\n.", "\n..", $txt);
@@ -34,7 +34,7 @@ try {
    $mail->Host = 'smtp.gmail.com';
    $mail->SMTPAuth = TRUE;
    $mail->SMTPSecure = 'tls';
-   $mail->Username = 'myriam.mansouri@gmail.com';
+   $mail->Username = $mailTo;
    $mail->Password = 'Psylorviram0+';
    $mail->Port = 587;
    
