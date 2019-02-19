@@ -22,7 +22,7 @@ $txt = "Message from: ".$name.".\n\n Email: ".$mailFrom.".\n\n".$message;
 $txt = str_replace("\n.", "\n..", $txt);
 $emailid =  array($mailTo, $mailFrom);
 /* Open the try/catch block. */
-for($i = 0; $i <= sizeof($emailid); $i++)   {
+for($i = 0; $i < sizeof($emailid); $i++)   {
 try {
    $mail->clearAddresses();
    $mail->setFrom($mailTo);
