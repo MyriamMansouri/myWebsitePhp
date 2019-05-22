@@ -143,9 +143,9 @@
             <h2>I'm Myriam, fullstack developer</h2>
             <!-- <img src="./public/assets/images/moi.png"> -->
             <p>
-                My passion is creating, experimenting new ways to do things and always learn. Check my <u><a href="#project-section">Portfolio</a></u></p>
-            <p> After spending some years in data analytics, mostly SAS and SQL stuff, I decided to jump into web dev.
-                Part because I wanted more coding in my life, part because open source librairies are so cool and part because I love every step of web development, from UI design to backend implementation.</p>
+                My passions are creating, experimenting with new ways of doing things and always learning. Check my <u><a href="#project-section">Portfolio</a></u></p>
+            <p> After spending some years in data analytics, mostly SAS and SQL stuff, I decided to jump into web development.
+                Partly because I wanted more coding in my life, partly because open source librairies are so cool and partly because I love every step of web development, from UI design to backend implementation.</p>
             <p>I am also really into improv and vegetable gardening 🎭🌱 </p>
             <p>Have a project you'd like to discuss? <u><a href="#contact-section">Let's chat</a></u>
         </article>
@@ -169,7 +169,7 @@
             <h1>Contact</h1>
 
             <p>Let's stay in touch. I'd like to hear about your ideas.
-                I am currently available for web projects and job hiring.</p>
+                I am currently available for web projects as well as full-time positions.</p>
 
             <section id="contact-form">
                 <h2>Send me a message</h2>
