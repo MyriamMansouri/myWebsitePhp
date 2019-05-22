@@ -142,7 +142,7 @@
                 My passion is creating, experimenting new ways to do things and always learn. Check my <u><a href="#project-section">Portfolio</a></u></p>
             <p> After spending some years in data analytics, mostly SAS and SQL stuff, I decided to jump into web dev.
                 Part because I wanted more coding in my life, part because open source librairies are so cool and part because I love every step of web development, from UI design to backend implementation.</p>
-            <p>I am also really into improv and vegetable gardening.</p>
+            <p>I am also really into improv and vegetable gardening 🎭🌱   </p>
             <p>Have a project you'd like to discuss? <u><a href="#contact-section">Let's chat</a></u>
         </article>
         <article class="I-do">
@@ -151,7 +151,7 @@
             <p class="small">Sass, Handlebars, Javascript</p>
             <h3>Back-end</h3>
             <p class="small">NodeJS, ExpressJS, APIs, MongoDB</p>
-            <h3>Version control and hosting</h3>
+            <h3>Version control and web hosting</h3>
             <p class="small">Git, Heroku, C-panel</p>
             <h3>Design</h3>
             <p class="small">Adobe XD</p>
@@ -192,7 +192,7 @@
             <li><a href="https://codepen.io/myriammansouri/" target="_blank"><i class="fab fa-codepen"></i></a></li>
         </ul>
     </div>
-    <footer>&copy; Made with <i class="fas fa-heart"></i> by me</footer>
+    <footer>&copy; Made with ❤️ and 🌮 by me</footer>
 </body>
 
 </html>
