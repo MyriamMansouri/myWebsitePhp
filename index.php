@@ -9,6 +9,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/public/assets/styles/styles.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Marvel:700" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
 </head>
 
@@ -142,7 +146,7 @@
                 My passion is creating, experimenting new ways to do things and always learn. Check my <u><a href="#project-section">Portfolio</a></u></p>
             <p> After spending some years in data analytics, mostly SAS and SQL stuff, I decided to jump into web dev.
                 Part because I wanted more coding in my life, part because open source librairies are so cool and part because I love every step of web development, from UI design to backend implementation.</p>
-            <p>I am also really into improv and vegetable gardening 🎭🌱   </p>
+            <p>I am also really into improv and vegetable gardening 🎭🌱 </p>
             <p>Have a project you'd like to discuss? <u><a href="#contact-section">Let's chat</a></u>
         </article>
         <article class="I-do">
