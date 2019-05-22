@@ -7,22 +7,31 @@ $hero-sub-font:$secondary-font-title;
     height: 100vh;
 }
 
-#hero-quote{
+#hero-quote {
     padding: 20vh 0 13vw 0;
-    #me{
-        color:$hero-title;
-        margin-bottom: -15px;
-    }
-    #job {
-        color:$hero-sub;
-        font-family: $hero-sub-font;
-    }
 }
 
+#me {
+    color: $hero-title;
+    margin-bottom: -15px;
+    font-size: 6rem;
+    font-weight: bold;
+}
 
-    
+#job {  
+    font-size: 2.7rem;
+    color: $hero-sub;
+    font-family: $hero-sub-font;
+}
 
+@media (max-width:750px) {
 
+    #me {
+        font-size: 3.7rem;
+        font-display: right;
+    }
 
-
-
+    #job {
+        font-size: 2.5rem;
+    }
+}

@@ -2,98 +2,135 @@ $h2-font-family:$secondary-font-title;
 $textarea-bg-color:$primary-dark-1;
 $form-focus-border-color:$primary-dark-1;
 
-body, html, ul, textarea {
+body,
+html,
+ul,
+textarea {
     font-family: $font-family;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 section {
     box-sizing: border-box;
-    padding:10vw 15vw 15vw 15vw;
+    padding: 10vw 15vw 15vw 15vw;
 }
 
 h1 {
     line-height: 4.7rem;
-    font-size: 5rem;
+    font-size: 6rem;
+    margin: 0;
+    padding: 25px 0;
+    width: 100%;
 }
 
-h2{
-    font-size:2.7rem;
+h2 {
+    font-size: 2.7rem;
     font-family: $h2-font-family;
-}
-
-h1,
-h2{
-    font-weight: bold;
+    padding: 15px 0;
 }
 
 h1,
 h2,
-p {
-    margin:0;
+h3 {
+    font-weight: bold;
 }
+
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+
+p {
+    padding: 15px 0;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+}
+
+p.small {
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+    padding: 0 0 19px 0;
+    font-size: 1rem;
+}
+
 header,
 footer {
-    left:0;
+    left: 0;
     right: 0;
 }
 
 header {
     position: fixed;
-    top:0;
+    top: 0;
 }
 
 footer {
-    height:50px;
+    height: 50px;
 }
 
 li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 button {
-    border:none;
+    border: none;
 }
 
-input, 
+input,
 textarea {
-    border:none;
+    border: none;
     width: 100%;
     display: block;
     outline: none;
     box-sizing: border-box;
-    border:2px solid;
+    border: 2px solid;
     margin: 20px 0;
     padding: 10px;
     text-align: left;
+
     &:focus {
-        border:2px solid $form-focus-border-color;
+        border: 2px solid $form-focus-border-color;
     }
 }
 
-textarea{
+textarea {
     height: 40vh;
 }
 
+.tile {
+    overflow: hidden;
+    height: 370px;
+    max-width: 400px;
+
+    .tile-bg {
+        position: relative;
+        height: 370px;
+        width: inherit;
+        background-size: cover;
+    }
+}
 
 @media (max-width:750px) {
-    
-h1 {
-    font-size: 4rem;
-    font-display: right;
-}
 
-h2{
-    font-size:2.7rem;
-}
-    section {
-        padding:10vw 15vw 15vw 5vw;
+    h1 {
+        font-size: 3.7rem;
+        font-display: right;
     }
-    
-    
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding: 10vw 15vw 15vw 5vw;
+    }
+
+
 }

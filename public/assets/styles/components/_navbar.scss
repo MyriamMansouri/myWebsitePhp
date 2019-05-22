@@ -20,7 +20,6 @@ nav {
             font-weight: 500;
         }
         a {
-            letter-spacing: 2px;
             font-weight: inherit;
             color:inherit;
             transition: $hover-transition;
@@ -31,7 +30,7 @@ nav li::after{
     content: '';
     display: block;
     bottom: 20px;
-    height: 4px;
+    height: 3px;
     width: 0%;
     background-color: $primary-dark-1;
     transition: $hover-transition;
@@ -43,9 +42,7 @@ nav li:hover::after{
 nav li:hover{
    color:$primary-dark-1;
 }
-nav li:hover{
-    font-weight: bold;
- }
+
 
  @media (max-width:750px) {
     nav {
